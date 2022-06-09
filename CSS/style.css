@@ -1,0 +1,12 @@
+body {
+    background-color: black;
+    background-image: url("../Assets/Illustrations/Bathome1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.p1 {
+    color: white;
+    position: absolute;
+    right: 10%;
+}
