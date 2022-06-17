@@ -80,21 +80,21 @@
             </div>
             <div>
                 <div class="c5">
-                    <div><img src=" ./Assets/Illustrations/Bathome5.png" alt="">
+                    <div><img class="zoom" src=" ./Assets/Illustrations/Bathome5.png" alt="">
                         <div>
                             <h1>The Riddler - Paul Dano</h1>
                             <P>(2022)</P>
                         </div>
                     </div>
                     <div>
-                        <img src=" ./Assets/Illustrations/Bathome6.png" alt="">
+                        <img class="zoom" src=" ./Assets/Illustrations/Bathome6.png" alt="">
                         <div>
                             <h2>Le JoKer - Heath Ledger </h2>
                             <P>(2008)</P>
                         </div>
                     </div>
                     <div>
-                        <img src=" ./Assets/Illustrations/Bathome7.png" alt="">
+                        <img class="zoom" src=" ./Assets/Illustrations/Bathome7.png" alt="">
                         <div>
                             <h3>Darkseid - Ray Porter</h3>
                             <P>(2022)</P>
@@ -117,19 +117,19 @@
             </div>
             <div>
                 <div class="c7">
-                    <div><img src=" ./Assets/Illustrations/Bathome9.png" alt="">
+                    <div><img class="zoom" src=" ./Assets/Illustrations/Bathome9.png" alt="">
                         <h1>Alfred Pennyworth - Michael Cain</h1>
                         <P>(2006 - 2008 - 2012)</P>
                     </div>
                     <div>
-                        <img src=" ./Assets/Illustrations/Bathome8.png" alt="">
+                        <img class="zoom" src=" ./Assets/Illustrations/Bathome8.png" alt="">
                         <div>
                             <h2>Catwoman - Zoé Kravitz </h2>
                             <P>(2008)</P>
                         </div>
                     </div>
                     <div>
-                        <img src=" ./Assets/Illustrations/Bathome10.png" alt="">
+                        <img class="zoom" src=" ./Assets/Illustrations/Bathome10.png" alt="">
                         <div>
                             <h3>James Gordon</h3>
                             <P>(2014-2019)</P>
@@ -150,7 +150,7 @@
         </section>
         <!--section multimedia-->
         <section>
-            <h0>MULTIMÉDIA</h0>
+            <h0 class="m0">MULTIMÉDIA</h0>
             <div class="m1">
                 <div><img class="m4" src="./Assets/Logos/icon_fle¦Çche_1.png" alt=""> </div>
                 <div class="m2">
@@ -163,7 +163,7 @@
                             <P>Batman Begins</P>
                             <P>
                                 <span>IMDB :</span>
-                                <span>8.2</span>
+                                <span class="s1">8.2</span>
                             </P>
                             <p>Le jeune Bruce Wayne assiste impuissant au meurtre de ses parents.
                                 <br> Profondément traumatisé, il grandit obnubilé par un désir de vengeance.
@@ -176,19 +176,19 @@
                     </div>
                 </div>
                 <div>
-                    <img src="./Assets/Logos/icon_fle¦Çche_2.png" alt="">
+                    <img class="m4a" src="./Assets/Logos/icon_fle¦Çche_2.png" alt="">
                 </div>
         </section>
-        <img src="./Assets/Illustrations/Bathome_ba2.png" alt="">
+        <img class="batba2" src="./Assets/Illustrations/Bathome_ba2.png" alt="">
         <!--section prenons contact-->
-        <section>
-            <div>
-                <h0>PRENONS CONTACT</h0>
-                <form action="">
-                    <label for="email">Adresse email</label>
+        <section id="contact">
+            <div class="form">
+                <h0 class="h0">PRENONS CONTACT</h0>
+                <form class="contact">
+                    <label class="titre" for="email">Adresse email</label>
                     <input type="email" placeholder="Adresse email" id="email">
 
-                    <h4>NEWSLETTER</h4>
+                    <h4 class="titre">NEWSLETTER</h4>
                     <P>
                         <span>En cochant cette case vous acceptez de recevoir l’actualité concernant les aventures de Batman :</span>
                         <span><input type="checkbox" name="" id=""></span>
@@ -201,11 +201,21 @@
                     <option value="">une fois tous les trois mois</option>
                     <option value="">une fois tous les six mois</option>
                 </select>
-                    <p>Souhaitez-vous recevoir des news</p>
+                    <p class="news">Souhaitez-vous recevoir des news</p>
+                    <div class="btn-groupe">
+                        <input type="radio" id="film">
+                        <label for=" des films"></label>
+                        <input type="radio" id="comics">
+                        <label for=" des comics"></label>
+                        <input type="radio" id="tout">
+                        <label for=" de tout"></label>
+                    </div>
                     <button>Des films</button>
                     <button>Des Comics</button>
                     <button>De tout</button>
-                    <h2>MESSAGE</h2>
+
+
+                    <h2 class="titre">MESSAGE</h2>
                     <label for="message"></label>
                     <input type="text" placeholder="Laissez un commentaire pour la communauté ">
                     <button>CONFIRMER</button>
